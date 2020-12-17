@@ -38,7 +38,7 @@ def way1(uri):
            rq = requests.get(guess)
            st = rq.status_code
            if st == 200:
-               print("check this url : " + guess + u)
+               print("check this url : " + guess )
            else:
                print("no :" + u)
         except:
